@@ -10,6 +10,7 @@ namespace Smart_thermoregulator
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("cc");
         }
     }
 }
