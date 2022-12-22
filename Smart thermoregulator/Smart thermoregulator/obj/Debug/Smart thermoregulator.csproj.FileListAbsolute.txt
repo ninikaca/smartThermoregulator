@@ -1,0 +1,7 @@
+D:\Desktop\projekat ers\st\Smart thermoregulator\Smart thermoregulator\bin\Debug\Smart thermoregulator.exe.config
+D:\Desktop\projekat ers\st\Smart thermoregulator\Smart thermoregulator\bin\Debug\Smart thermoregulator.exe
+D:\Desktop\projekat ers\st\Smart thermoregulator\Smart thermoregulator\bin\Debug\Smart thermoregulator.pdb
+D:\Desktop\projekat ers\st\Smart thermoregulator\Smart thermoregulator\obj\Debug\Smart thermoregulator.csproj.AssemblyReference.cache
+D:\Desktop\projekat ers\st\Smart thermoregulator\Smart thermoregulator\obj\Debug\Smart thermoregulator.csproj.CoreCompileInputs.cache
+D:\Desktop\projekat ers\st\Smart thermoregulator\Smart thermoregulator\obj\Debug\Smart thermoregulator.exe
+D:\Desktop\projekat ers\st\Smart thermoregulator\Smart thermoregulator\obj\Debug\Smart thermoregulator.pdb
