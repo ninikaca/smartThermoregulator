@@ -9,7 +9,7 @@
     <Grid>
         <Grid.RowDefinitions>
 
-            <RowDefinition />
+            <RowDefinition/>
             <RowDefinition/>
 
 
@@ -22,14 +22,34 @@
 
         <!-- Upis podataka za dnevni rezim -->
         <Label Content="Dnevni rezim" HorizontalAlignment="Center" Margin="142,16,72,0" VerticalAlignment="Top" Width="182" FontSize="16" FontWeight="Bold"/>
-        
+
         <TextBox HorizontalAlignment="Left" Height="35" Margin="111,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" Cursor="Hand" />
         <TextBox HorizontalAlignment="Left" Height="35" Margin="222,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" Cursor="Hand"/>
 
         <Label Content="do" HorizontalAlignment="Center" Margin="181,63,179,0" VerticalAlignment="Top" Width="36"/>
         <Label Content="h" HorizontalAlignment="Center" Margin="295,65,38,0" VerticalAlignment="Top" Width="63"/>
-        
+
         <Button Content="Ucitaj vreme dnevnog rezima" HorizontalAlignment="Left" Margin="111,109,0,0" VerticalAlignment="Top" Width="167"/>
+
+
+        <!-- Upis podataka za dnevni rezim -->
+        <Label Content="Temperatura dnevnog rezima" HorizontalAlignment="Center" Margin="77,18,72,0" VerticalAlignment="Top" Width="247" Grid.Row="1" FontSize="16" FontWeight="Bold" RenderTransformOrigin="0.241,0.55"/>
+        <Label Content="C" HorizontalAlignment="Center" Margin="222,49,136,0" VerticalAlignment="Top" Width="38" Grid.Row="1"/>
+
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="159,49,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="58"/>
+
+        <Button Content="Ucitaj temperaturu dnevnog rezima" HorizontalAlignment="Left" Margin="102,96,0,0" VerticalAlignment="Top" Width="204" Grid.Row="1" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.124"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+
+
 
     </Grid>
 </Window>
