@@ -47,6 +47,7 @@
     <Compile Include="Klase\Heater.cs" />
     <Compile Include="Klase\IDevice.cs" />
     <Compile Include="Klase\Regulator.cs" />
+    <Compile Include="PeriodicTimer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
