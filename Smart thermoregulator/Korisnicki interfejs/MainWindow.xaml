@@ -7,6 +7,29 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.RowDefinitions>
+
+            <RowDefinition />
+            <RowDefinition/>
+
+
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Upis podataka za dnevni rezim -->
+        <Label Content="Dnevni rezim" HorizontalAlignment="Center" Margin="142,16,72,0" VerticalAlignment="Top" Width="182" FontSize="16" FontWeight="Bold"/>
         
+        <TextBox HorizontalAlignment="Left" Height="35" Margin="111,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" Cursor="Hand" />
+        <TextBox HorizontalAlignment="Left" Height="35" Margin="222,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" Cursor="Hand"/>
+
+        <Label Content="do" HorizontalAlignment="Center" Margin="181,63,179,0" VerticalAlignment="Top" Width="36"/>
+        <Label Content="h" HorizontalAlignment="Center" Margin="295,65,38,0" VerticalAlignment="Top" Width="63"/>
+        
+        <Button Content="Ucitaj vreme dnevnog rezima" HorizontalAlignment="Left" Margin="111,109,0,0" VerticalAlignment="Top" Width="167"/>
+
     </Grid>
 </Window>
