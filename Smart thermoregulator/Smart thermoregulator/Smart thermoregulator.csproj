@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Klase\Device.cs" />
     <Compile Include="Klase\Heater.cs" />
+    <Compile Include="Klase\IDevice.cs" />
     <Compile Include="Klase\Regulator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
