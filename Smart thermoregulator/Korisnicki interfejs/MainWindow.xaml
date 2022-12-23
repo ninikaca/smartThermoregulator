@@ -33,7 +33,7 @@
 
 
         <!-- Upis podataka za temperaturu dnevnog rezim -->
-        <Label Content="Temperatura dnevnog rezima" HorizontalAlignment="Center" Margin="77,18,72,0" VerticalAlignment="Top" Width="247" Grid.Row="1" FontSize="16" FontWeight="Bold" RenderTransformOrigin="0.241,0.55"/>
+        <Label Content="Temperatura dnevnog rezima" HorizontalAlignment="Center" Margin="77,18,72,0" VerticalAlignment="Top" Width="247" Grid.Row="1" FontSize="16" FontWeight="Bold"/>
         <Label Content="C" HorizontalAlignment="Center" Margin="222,49,136,0" VerticalAlignment="Top" Width="38" Grid.Row="1"/>
 
         <TextBox HorizontalAlignment="Left" Height="24" Margin="159,49,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="58"/>
@@ -60,7 +60,7 @@
         <Label Content="h" HorizontalAlignment="Center" Margin="290,65,44,0" VerticalAlignment="Top" Width="62" Grid.Column="1"/>
 
 
-        <!-- Ispis podataka za temperaturu dnevnog rezim -->
+        <!-- Upis podataka za temperaturu noćnog rezim -->
         <Label Content="Temperatura nocnog rezima" HorizontalAlignment="Center" Margin="86,18,66,0" VerticalAlignment="Top" Width="244" Grid.Row="1" Grid.Column="1" FontSize="16" FontWeight="Bold"/>
         <Label Content="C" HorizontalAlignment="Center" Margin="217,49,141,0" VerticalAlignment="Top" Width="38" Grid.Row="1" Grid.Column="1"/>
         
