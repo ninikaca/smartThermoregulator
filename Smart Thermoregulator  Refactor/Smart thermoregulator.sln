@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korisnicki interfejs", "Korisnicki interfejs\Korisnicki interfejs.csproj", "{FCC7F37C-30E2-44EB-9C57-E0BF8AEBC29E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Device", "Device\Device.csproj", "{B445F91B-1CD5-4B95-9941-F15674F0C87C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heater", "Heater\Heater.csproj", "{59B0745F-4CF5-4FEF-A55A-17E50F4AFF8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regulator", "Regulator\Regulator.csproj", "{F2E328F4-5BE8-4D5C-8084-3DC8BE984A38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{D0B6F4C3-0127-4746-B3D4-63A2DE0FBD44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCC7F37C-30E2-44EB-9C57-E0BF8AEBC29E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCC7F37C-30E2-44EB-9C57-E0BF8AEBC29E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCC7F37C-30E2-44EB-9C57-E0BF8AEBC29E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCC7F37C-30E2-44EB-9C57-E0BF8AEBC29E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B445F91B-1CD5-4B95-9941-F15674F0C87C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B445F91B-1CD5-4B95-9941-F15674F0C87C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B445F91B-1CD5-4B95-9941-F15674F0C87C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B445F91B-1CD5-4B95-9941-F15674F0C87C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59B0745F-4CF5-4FEF-A55A-17E50F4AFF8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59B0745F-4CF5-4FEF-A55A-17E50F4AFF8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59B0745F-4CF5-4FEF-A55A-17E50F4AFF8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59B0745F-4CF5-4FEF-A55A-17E50F4AFF8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2E328F4-5BE8-4D5C-8084-3DC8BE984A38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2E328F4-5BE8-4D5C-8084-3DC8BE984A38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2E328F4-5BE8-4D5C-8084-3DC8BE984A38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2E328F4-5BE8-4D5C-8084-3DC8BE984A38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0B6F4C3-0127-4746-B3D4-63A2DE0FBD44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0B6F4C3-0127-4746-B3D4-63A2DE0FBD44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0B6F4C3-0127-4746-B3D4-63A2DE0FBD44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0B6F4C3-0127-4746-B3D4-63A2DE0FBD44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29D3A2A1-57E6-4EF7-97F5-5C8BF25043B3}
+	EndGlobalSection
+EndGlobal
