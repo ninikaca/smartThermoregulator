@@ -1,0 +1,81 @@
+﻿<Window x:Class="Korisnicki_interfejs.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Korisnicki_interfejs"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+
+            <RowDefinition/>
+            <RowDefinition/>
+
+
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Upis podataka za dnevni rezim -->
+        <Label Content="Dnevni rezim" HorizontalAlignment="Center" Margin="142,16,72,0" VerticalAlignment="Top" Width="182" FontSize="16" FontWeight="Bold"/>
+
+        <TextBox HorizontalAlignment="Left" Height="35" Margin="111,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" Cursor="Hand" />
+        <TextBox HorizontalAlignment="Left" Height="35" Margin="222,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" Cursor="Hand"/>
+
+        <Label Content="do" HorizontalAlignment="Center" Margin="181,63,179,0" VerticalAlignment="Top" Width="36"/>
+        <Label Content="h" HorizontalAlignment="Center" Margin="295,65,38,0" VerticalAlignment="Top" Width="63"/>
+
+        <Button Content="Ucitaj vreme dnevnog rezima" HorizontalAlignment="Left" Margin="111,109,0,0" VerticalAlignment="Top" Width="167"/>
+
+
+        <!-- Upis podataka za temperaturu dnevnog rezim -->
+        <Label Content="Temperatura dnevnog rezima" HorizontalAlignment="Center" Margin="77,18,72,0" VerticalAlignment="Top" Width="247" Grid.Row="1" FontSize="16" FontWeight="Bold"/>
+        <Label Content="C" HorizontalAlignment="Center" Margin="222,49,136,0" VerticalAlignment="Top" Width="38" Grid.Row="1"/>
+
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="159,49,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="58"/>
+
+        <Button Content="Ucitaj temperaturu dnevnog rezima" HorizontalAlignment="Left" Margin="102,96,0,0" VerticalAlignment="Top" Width="204" Grid.Row="1" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.124"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+
+
+        <!-- Ispis podataka za noćni rezim -->
+        <Label Content="Nocni Rezim" Grid.Column="1" HorizontalAlignment="Left" Margin="134,16,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="35" Margin="108,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" IsEnabled="False"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="35" Margin="217,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" IsEnabled="False"/>
+
+        <Label Content="do" HorizontalAlignment="Right" Margin="0,65,158,0" VerticalAlignment="Top" Width="62" Grid.Column="1"/>
+        <Label Content="h" HorizontalAlignment="Center" Margin="290,65,44,0" VerticalAlignment="Top" Width="62" Grid.Column="1"/>
+
+
+        <!-- Upis podataka za temperaturu noćnog rezim -->
+        <Label Content="Temperatura nocnog rezima" HorizontalAlignment="Center" Margin="86,18,66,0" VerticalAlignment="Top" Width="244" Grid.Row="1" Grid.Column="1" FontSize="16" FontWeight="Bold"/>
+        <Label Content="C" HorizontalAlignment="Center" Margin="217,49,141,0" VerticalAlignment="Top" Width="38" Grid.Row="1" Grid.Column="1"/>
+        
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="154,49,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="58" Grid.Column="1"/>
+
+        <Button Content="Ucitaj temperaturu nocnog rezima" HorizontalAlignment="Left" Margin="99,94,0,0" VerticalAlignment="Top" Width="204" Grid.Row="1" RenderTransformOrigin="0.5,0.5" Grid.Column="1">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.124"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+
+    </Grid>
+</Window>
