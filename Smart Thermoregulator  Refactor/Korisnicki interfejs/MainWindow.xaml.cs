@@ -24,5 +24,16 @@ namespace Korisnicki_interfejs
         {
             InitializeComponent();
         }
+
+        private void dodajNoviUredjajBtn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void IspisLoga_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
     }
 }
