@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Device
 {
-    public class Device : IDevice
+    public class Device : IDevice, INotifyPropertyChanged
     {
         private int deviceId;
         private double temperatura;
@@ -31,9 +31,23 @@ namespace Device
                 if (value != temperatura)
                 {
                     temperatura = value;
-                
+                    OnPropertyChanged("Temperatura");
                 }
             }
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        // promena temperature na uredjaju treba se prikaze i u datagrid-u
+        protected void OnPropertyChanged(PropertyChangedEventArgs e)
+        {
+            PropertyChangedEventHandler handler = PropertyChanged;
+            if (handler != null)
+                handler(this, e);
+        }
+        protected void OnPropertyChanged(string propertyName)
+        {
+            OnPropertyChanged(new PropertyChangedEventArgs(propertyName));
         }
 
         public async void NovoMerenje()
