@@ -1,5 +1,10 @@
-﻿using System;
+﻿using Device.Implementacije;
 using Device.Interfejsi;
+using System;
+using System.ComponentModel;
+using System.Diagnostics;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace Device
 {
@@ -10,16 +15,28 @@ namespace Device
 
         public Device()
         {
-            this.deviceId = new Random().Next(0, 10000);
-            this.temperatura = new Random().Next(-100, 100);
+            deviceId = new Random().Next(0, 10000);
+            temperatura = Math.Round((new Random().Next(-10, 37) + (new Random().NextDouble())), 2); ;
+
         }
 
         public int DeviceId { get => deviceId; set => deviceId = value; }
-        public double Temperatura { get => temperatura; set => temperatura = value; }
+        public double Temperatura
+        {
+            get { return temperatura; }
+            set
+            {
+                if (value != temperatura)
+                {
+                    temperatura = value;
+                
+                }
+            }
+        }
 
-
-        //TODO: Uraditi metodu
-        public void NovoMerenje() { }
-
+        public void NovoMerenje()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
