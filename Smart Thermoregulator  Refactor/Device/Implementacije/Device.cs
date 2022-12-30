@@ -18,6 +18,8 @@ namespace Device
             deviceId = new Random().Next(0, 10000);
             temperatura = Math.Round((new Random().Next(-10, 37) + (new Random().NextDouble())), 2); ;
 
+            // todo
+            NovoMerenje();
         }
 
         public int DeviceId { get => deviceId; set => deviceId = value; }
@@ -34,9 +36,12 @@ namespace Device
             }
         }
 
-        public void NovoMerenje()
+        public async void NovoMerenje()
         {
-            throw new NotImplementedException();
+            // slanje merenja regulatoru
+            PeriodicTimer vreme = new PeriodicTimer();
+
+            await vreme.SlanjeMerenja(deviceId, temperatura);
         }
     }
 }
