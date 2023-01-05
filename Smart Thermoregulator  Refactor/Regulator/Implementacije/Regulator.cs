@@ -1,9 +1,8 @@
 ﻿using Heater.Interfejsi;
 using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
+using System.Diagnostics;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Heater

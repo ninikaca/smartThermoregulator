@@ -8,6 +8,6 @@ namespace Heater.Interfejsi
 {
     public interface IRegulator
     {
-        void regulacija();
+        void Regulacija();
     }
 }
