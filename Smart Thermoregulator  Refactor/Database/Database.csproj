@@ -44,7 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Implementacije\DatabaseConnection.cs" />
+    <Compile Include="Implementacije\DbParams.cs" />
+    <Compile Include="Implementacije\WriteHeaterData.cs" />
     <Compile Include="Interfejsi\IDatabaseConnection.cs" />
+    <Compile Include="Interfejsi\IWriteHeaterData.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
