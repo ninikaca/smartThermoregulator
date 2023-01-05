@@ -110,5 +110,69 @@ namespace Korisnicki_interfejs
             startTermoBtn.IsEnabled = true;
         }
 
+        private async void startTermoBtn_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                regulator.ZeljenaNocnaTemperatura = Double.Parse(tempNocna.Text);
+
+                tempNocna.IsEnabled = false;
+                startTermoBtn.IsEnabled = false;
+
+                MessageBox.Show("Regulator započinje sa radom!", "Informacija", MessageBoxButton.OK, MessageBoxImage.Information);
+
+                // zapocni regulaciju
+                regulator.Regulacija();
+
+                // promena statusa
+                statusRegulatora.Content = "Status: Radi";
+                statusRegulatora.Foreground = Brushes.DarkBlue;
+                ProveraProsecneTemperature();
+
+                await ProveraPreostaleTemperature();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Niste uneli broj!", "Greška", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
+        }
+
+        private void ProveraProsecneTemperature()
+        {
+            try
+            {
+                // procena preostalog vremena
+                double sum = 0;
+                foreach (Device.Device d in uredjaji.GetDevices())
+                {
+                    sum += d.Temperatura;
+                }
+
+                sum /= uredjaji.GetDevices().Count;
+
+                double preostalo = Double.Parse(tempDnevna.Text) - Math.Round(sum, 2);
+
+                if (preostalo > 0)
+                {
+                    statusRegulatora.Content = "Status: Radi";
+                    statusRegulatora.Foreground = Brushes.DarkBlue;
+                    tempLeft.Content = "Preostalo: " + preostalo.ToString().Replace(',', '.') + "°C";
+                }
+                else
+                {
+                    statusRegulatora.Content = "Status: Idle";
+                    statusRegulatora.Foreground = Brushes.DarkCyan;
+
+                    tempLeft.Content = "Preostalo: " + "0.0" + "°C";
+                    tempLeft.Foreground = Brushes.DarkCyan;
+                }
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Greška u premeru preostale temperature zagrevanja!", "Greška", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+
+        }
+
     }
 }
