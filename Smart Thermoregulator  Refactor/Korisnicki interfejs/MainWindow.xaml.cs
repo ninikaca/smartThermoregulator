@@ -174,5 +174,23 @@ namespace Korisnicki_interfejs
 
         }
 
+        private async Task ProveraPreostaleTemperature()
+        {
+            CancellationToken ct = new CancellationToken();
+            TimeSpan vreme = new TimeSpan(0, 0, 2); // provera na 3 minute
+
+            for (; !ct.IsCancellationRequested;)
+            {
+                await PeriodicnaProvera(vreme, ct);
+
+                ProveraProsecneTemperature();
+            }
+        }
+
+        public async Task PeriodicnaProvera(TimeSpan interval, CancellationToken cancellationToken)
+        {
+            await Task.Delay(interval, cancellationToken);
+        }
+
     }
 }
