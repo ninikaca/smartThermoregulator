@@ -38,6 +38,24 @@ namespace Heater
             }
         }
 
+        // TODO LOG U BAZU PODATAKA
         public void Evidencija()
+        {
+            try
+            {
+                IWriteHeaterData belezenjePodataka = new WriteHeaterData();
+
+                var ts = ProtekloVreme.Elapsed;
+                int proteklo = ts.Seconds;
+                string datum = DateTime.Now.ToString("dd.MM.yyyy HH:mm:ss");
+                decimal potroseno = (decimal)(proteklo * 0.125); // 125W po sekundi
+
+                belezenjePodataka.Evidencija(proteklo, datum, potroseno);
+            }
+            catch (Exception)
+            {
+                // catch Exception
+            }
+        }
     }
 }
