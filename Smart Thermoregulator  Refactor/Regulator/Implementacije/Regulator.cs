@@ -1,4 +1,5 @@
 ﻿using Heater.Interfejsi;
+using Logger;
 using System;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
@@ -35,6 +36,18 @@ namespace Heater
         public async void Regulacija()
         {
             await ProveraRada();
+        }
+
+        private void ProsecnaTemp()
+        {
+            double sum = 0.0;
+
+            foreach (Device.Device device in Uredjaji)
+            {
+                sum += device.Temperatura;
+            }
+
+            ProsecnaTemperatura = sum / Uredjaji.Count;
         }
 
         public async Task ProveraRada()
