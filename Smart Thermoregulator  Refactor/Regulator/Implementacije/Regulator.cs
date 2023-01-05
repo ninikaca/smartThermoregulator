@@ -40,7 +40,92 @@ namespace Heater
 
         public async Task ProveraRada()
         {
+            CancellationToken ct = new CancellationToken();
+            TimeSpan vreme = new TimeSpan(0, 0, 5); // DRUGI PARAMETAR PROMENITI NA 2 MINUTA!!!
+            Grejac.devices = Uredjaji; // prenos referenci uredjaja
 
+            for (; !ct.IsCancellationRequested;)
+            {
+                await PeriodicnaProvera(vreme, ct);
+
+                CheckTempHeater();
+            }
+        }
+
+        private void CheckTempHeater()
+        {
+            // koji je rezim rada
+            TimeSpan currentTime = DateTime.Now.TimeOfDay;
+            int trenutniSat = currentTime.Hours;
+
+            if (trenutniSat >= PocetakDnevniRezim && trenutniSat <= KrajDnevniRezim)
+            {
+                IsDnevniRezim = true;
+                IsNocniRezim = false;
+            }
+            else
+            {
+                IsDnevniRezim = false;
+                IsNocniRezim = true;
+            }
+
+            // proracun prosecne temperature
+            ProsecnaTemp();
+
+            // izdavanje komande na osnovu trenutne temperature
+            if (IsDnevniRezim)
+            {
+                if (ProsecnaTemperatura < ZeljenaDnevnaTemperatura)
+                {
+                    Log log = new Log("Ukljucivanje centralne peci!");
+                    log.LogNoveInformationPoruke();
+
+                    // ukljucivanje grejaca
+                    Grejac.IsHeaterOn = true;
+                }
+                else
+                {
+                    Log log = new Log("Centralna pec iskljucena!");
+                    log.LogNoveInformationPoruke();
+
+                    // gasenje grejaca
+                    Grejac.IsHeaterOn = false;
+                }
+            }
+            else if (IsNocniRezim)
+            {
+                if (ProsecnaTemperatura < ZeljenaNocnaTemperatura)
+                {
+                    Log log = new Log("Ukljucivanje centralne peci!");
+                    log.LogNoveInformationPoruke();
+
+                    // ukljucivanje grejaca
+                    Grejac.IsHeaterOn = true;
+                }
+                else
+                {
+                    Log log = new Log("Centralna pec iskljucena!");
+                    log.LogNoveInformationPoruke();
+
+                    // gasenje grejaca
+                    Grejac.IsHeaterOn = false;
+                }
+            }
+            else
+            {
+                Log log = new Log("Greska sa centralnom peci!");
+                log.LogNoveErrorPoruke();
+
+                // gasenje grejaca
+                Grejac.IsHeaterOn = false;
+            }
+
+            Grejac.PokreniZagrevanje(); // pokretanje grejaca
+        }
+
+        public async Task PeriodicnaProvera(TimeSpan interval, CancellationToken cancellationToken)
+        {
+            await Task.Delay(interval, cancellationToken);
         }
     }
 }
