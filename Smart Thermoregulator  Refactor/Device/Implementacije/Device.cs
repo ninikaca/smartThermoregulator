@@ -2,9 +2,6 @@
 using Device.Interfejsi;
 using System;
 using System.ComponentModel;
-using System.Diagnostics;
-using System.Threading;
-using System.Threading.Tasks;
 
 namespace Device
 {
@@ -18,7 +15,6 @@ namespace Device
             deviceId = new Random().Next(0, 10000);
             temperatura = Math.Round((new Random().Next(-10, 37) + (new Random().NextDouble())), 2); ;
 
-            // todo
             NovoMerenje();
         }
 
