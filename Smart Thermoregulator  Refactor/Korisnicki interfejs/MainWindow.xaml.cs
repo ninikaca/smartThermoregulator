@@ -72,5 +72,43 @@ namespace Korisnicki_interfejs
             }
         }
 
+        private void SetupUredjaja()
+        {
+            // onemoguci dodavanje uredjaja
+            dodajNoviUredjajBtn.IsEnabled = false;
+
+            // kreiranje regulatora
+            regulator = new Regulator();
+
+            // uvezivanje uredjaja i regulatora
+            regulator.Uredjaji = uredjaji.GetDevices();
+            regulator.ZeljenaDnevnaTemperatura = Double.Parse(tempDnevna.Text);
+            regulator.PocetakDnevniRezim = Int32.Parse(pocetakDnevna.Text);
+            regulator.KrajDnevniRezim = Int32.Parse(krajDnevna.Text);
+        }
+
+        private void CheckFields(int pd, int kd)
+        {
+            // omoguci unos nocne temperature
+            // i dugme za start termo regulatora
+            tempNocna.IsEnabled = true;
+
+            pocetakNocna.Items.Clear(); // ocisti vrednosti
+            krajNocna.Items.Clear(); // ocisti vrednosti
+
+            pocetakNocna.Items.Add(kd);
+            krajNocna.Items.Add(pd);
+            pocetakNocna.SelectedIndex = 0;
+            krajNocna.SelectedIndex = 0;
+
+            // onemoguci prvi unos
+            pocetakDnevna.IsEnabled = false;
+            krajDnevna.IsEnabled = false;
+            cuvanjeDnevneTempBtn.IsEnabled = false;
+            tempDnevna.IsEnabled = false;
+
+            startTermoBtn.IsEnabled = true;
+        }
+
     }
 }
