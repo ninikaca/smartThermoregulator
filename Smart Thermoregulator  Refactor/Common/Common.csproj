@@ -42,13 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Implementacije\Log.cs" />
-    <Compile Include="Implementacije\LogPoruka.cs" />
-    <Compile Include="Implementacije\LogUFajl.cs" />
-    <Compile Include="Interfejsi\ILog.cs" />
-    <Compile Include="Interfejsi\ILogPoruka.cs" />
-    <Compile Include="Interfejsi\ILogUFajl.cs" />
+    <Compile Include="Implementacije\DeviceCollection.cs" />
+    <Compile Include="Interfejsi\IDeviceCollection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
