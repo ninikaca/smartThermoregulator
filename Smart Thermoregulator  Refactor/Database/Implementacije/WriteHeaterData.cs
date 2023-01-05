@@ -1,10 +1,5 @@
 ﻿using Database.Interfejsi;
-using System;
-using System.Collections.Generic;
 using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Database.Implementacije
 {
@@ -21,9 +16,7 @@ namespace Database.Implementacije
                     komanda.CommandText = "INSERT INTO HEATER VALUES(" + radioSati + ", '" + datum + "'," + potrosenoKw + ")";
                     komanda.Prepare();
 
-                    komanda.ExecuteNonQuery();
-
-                    return true;
+                    return komanda.ExecuteNonQuery() != 0;
                 }
             }
         }

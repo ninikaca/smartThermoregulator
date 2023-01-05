@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Korisnicki_interfejs"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid Background="">
+        Title="Smart ThermoRegulator 3.1" Height="450" Width="800">
+    <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
@@ -28,8 +28,8 @@
 
         <!-- NASLOV APP -->
         <Label FontSize="22" FontWeight="DemiBold" Content="SMART THERMOREGULATOR" Grid.Column="2" Grid.Row="0" Grid.ColumnSpan="3" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0 0 0 10"></Label>
-
-        <!-- INFROMACIJA O DODAVANJU UREDJAJA -->
+        
+       <!-- INFROMACIJA O DODAVANJU UREDJAJA -->
         <DataGrid Name = "aktivniUredjaji" AlternatingRowBackground = "LightBlue"  
          AlternationCount = "2" AutoGenerateColumns = "False" FontSize="16" FontWeight="SemiBold"
          Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Grid.RowSpan="5" IsReadOnly="True">
@@ -40,7 +40,7 @@
             </DataGrid.Columns>
 
         </DataGrid>
-
+        
         <!-- DUGME DODAVANJE NOVOG UREDJAJA -->
         <Button Name="dodajNoviUredjajBtn" Click="dodajNoviUredjajBtn_Click" FontSize="16" FontWeight="SemiBold" Grid.Column="1" Grid.Row="6" Grid.ColumnSpan="2" Height="30">DODAVANJE NOVOG UREĐAJA</Button>
 
@@ -60,7 +60,7 @@
                     <ColumnDefinition Width="*"></ColumnDefinition>
                     <ColumnDefinition Width="*"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
-
+                
                 <!-- DNEVNI REZIM -->
                 <Label FontSize="17" FontWeight="Bold" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Dnevni Režim"></Label>
                 <Label FontSize="16" FontWeight="SemiBold" Grid.Row="1" Content="Početni sat:" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
@@ -143,6 +143,6 @@
         <Button FontSize="16" FontWeight="SemiBold" Grid.Column="3" Grid.Row="6" Grid.ColumnSpan="2" Margin="10 0 10 0" Height="30" Click="Button_Click">KRAJ RADA SA THERMOREGULATOR</Button>
         <Label FontSize="16" FontWeight="SemiBold" Grid.Column="5" Grid.Row="6" VerticalAlignment="Top" Margin="0 -1 0 0" Name="statusRegulatora" HorizontalAlignment="Center" Foreground="Crimson">Status: Isključen</Label>
         <Label FontSize="16" FontWeight="SemiBold" Grid.Column="5" Grid.Row="6" VerticalAlignment="Bottom" Margin="0 0 0 8" Name="tempLeft" HorizontalAlignment="Center" Foreground="DarkBlue"></Label>
-
+        
     </Grid>
 </Window>

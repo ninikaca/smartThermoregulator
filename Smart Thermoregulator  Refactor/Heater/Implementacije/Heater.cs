@@ -1,6 +1,5 @@
 ﻿using Database.Implementacije;
 using Database.Interfejsi;
-using Device;
 using Heater.Interfejsi;
 using System;
 using System.Collections.ObjectModel;
@@ -35,6 +34,7 @@ namespace Heater
             {
                 ProtekloVreme.Stop(); // zaustavi rad i upisi u evidenciju
                 Evidencija();
+                IsHeaterOn = false;
                 ProtekloVreme.Reset(); // ponovno brojanje od nule
             }
         }
@@ -47,9 +47,9 @@ namespace Heater
                 IWriteHeaterData belezenjePodataka = new WriteHeaterData();
 
                 var ts = ProtekloVreme.Elapsed;
-                int proteklo = ts.Seconds;
+                int proteklo = ts.Milliseconds;
                 string datum = DateTime.Now.ToString("dd.MM.yyyy HH:mm:ss");
-                decimal potroseno = (decimal)(proteklo * 0.125); // 125W po sekundi
+                decimal potroseno = (proteklo * 12); // 12.5W po sekundi
 
                 belezenjePodataka.Evidencija(proteklo, datum, potroseno);
             }

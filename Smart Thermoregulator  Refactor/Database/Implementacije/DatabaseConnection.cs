@@ -1,10 +1,6 @@
 ﻿using Oracle.ManagedDataAccess.Client;
 using System;
-using System.Collections.Generic;
 using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Database.Implementacije
 {
@@ -14,7 +10,7 @@ namespace Database.Implementacije
 
         public static IDbConnection GetConnection()
         {
-            if (instance == null || instance.State == System.Data.ConnectionState.Closed)
+            if (instance == null || instance.State == ConnectionState.Closed)
             {
                 OracleConnectionStringBuilder ocsb = new OracleConnectionStringBuilder();
 
@@ -38,6 +34,11 @@ namespace Database.Implementacije
                 instance.Close();
                 instance.Dispose();
             }
+        }
+
+        public static bool GetInstance()
+        {
+            return instance != null;
         }
     }
 }

@@ -191,6 +191,5 @@ namespace Korisnicki_interfejs
         {
             await Task.Delay(interval, cancellationToken);
         }
-
     }
 }

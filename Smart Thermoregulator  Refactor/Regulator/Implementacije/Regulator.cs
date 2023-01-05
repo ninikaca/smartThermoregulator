@@ -2,7 +2,6 @@
 using Logger;
 using System;
 using System.Collections.ObjectModel;
-using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
 
