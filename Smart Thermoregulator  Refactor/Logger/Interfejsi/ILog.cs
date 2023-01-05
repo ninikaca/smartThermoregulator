@@ -1,12 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿///         INTERFACE ILog
+///         Belezenje nove poruke
+///         
 namespace Logger.Interfejsi
 {
-    interface ILog
+    public interface ILog
     {
+        // metoda koja sluzi za belezenje informacionih poruka
+        void LogNoveInformationPoruke();
+
+        // metoda koja sluzi za belezenje poruka o upozorenju
+        void LogNoveWarningPoruke();
+
+        // metoda koja sluzi za belezenje poruka o gresci
+        void LogNoveErrorPoruke();
     }
 }
