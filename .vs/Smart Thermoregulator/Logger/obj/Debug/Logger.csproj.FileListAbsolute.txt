@@ -1,0 +1,66 @@
+D:\Smart Thermoregulator V10.2.6\Logger\bin\Debug\Logger.dll.config
+D:\Smart Thermoregulator V10.2.6\Logger\bin\Debug\Logger.dll
+D:\Smart Thermoregulator V10.2.6\Logger\bin\Debug\Logger.pdb
+D:\Smart Thermoregulator V10.2.6\Logger\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Smart Thermoregulator V10.2.6\Logger\bin\Debug\System.Buffers.dll
+D:\Smart Thermoregulator V10.2.6\Logger\bin\Debug\System.Memory.dll
+D:\Smart Thermoregulator V10.2.6\Logger\bin\Debug\System.Numerics.Vectors.dll
+D:\Smart Thermoregulator V10.2.6\Logger\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Smart Thermoregulator V10.2.6\Logger\bin\Debug\System.Text.Encodings.Web.dll
+D:\Smart Thermoregulator V10.2.6\Logger\bin\Debug\System.Text.Json.dll
+D:\Smart Thermoregulator V10.2.6\Logger\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Smart Thermoregulator V10.2.6\Logger\bin\Debug\System.ValueTuple.dll
+D:\Smart Thermoregulator V10.2.6\Logger\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Smart Thermoregulator V10.2.6\Logger\bin\Debug\System.Buffers.xml
+D:\Smart Thermoregulator V10.2.6\Logger\bin\Debug\System.Memory.xml
+D:\Smart Thermoregulator V10.2.6\Logger\bin\Debug\System.Numerics.Vectors.xml
+D:\Smart Thermoregulator V10.2.6\Logger\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Smart Thermoregulator V10.2.6\Logger\bin\Debug\System.Text.Encodings.Web.xml
+D:\Smart Thermoregulator V10.2.6\Logger\bin\Debug\System.Text.Json.xml
+D:\Smart Thermoregulator V10.2.6\Logger\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Smart Thermoregulator V10.2.6\Logger\bin\Debug\System.ValueTuple.xml
+D:\Smart Thermoregulator V10.2.6\Logger\obj\Debug\Logger.csproj.AssemblyReference.cache
+D:\Smart Thermoregulator V10.2.6\Logger\obj\Debug\Logger.csproj.CoreCompileInputs.cache
+D:\Smart Thermoregulator V10.2.6\Logger\obj\Debug\Logger.csproj.CopyComplete
+D:\Smart Thermoregulator V10.2.6\Logger\obj\Debug\Logger.dll
+D:\Smart Thermoregulator V10.2.6\Logger\obj\Debug\Logger.pdb
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Logger\bin\Debug\Logger.dll.config
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Logger\bin\Debug\Logger.dll
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Logger\bin\Debug\Logger.pdb
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Logger\bin\Debug\System.Buffers.dll
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Logger\bin\Debug\System.Memory.dll
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Logger\bin\Debug\System.Numerics.Vectors.dll
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Logger\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Logger\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Logger\bin\Debug\System.ValueTuple.dll
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Logger\bin\Debug\System.Buffers.xml
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Logger\bin\Debug\System.Memory.xml
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Logger\bin\Debug\System.Numerics.Vectors.xml
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Logger\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Logger\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Logger\bin\Debug\System.ValueTuple.xml
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Logger\obj\Debug\Logger.csproj.CoreCompileInputs.cache
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Logger\obj\Debug\Logger.csproj.CopyComplete
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Logger\obj\Debug\Logger.dll
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Logger\obj\Debug\Logger.pdb
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Logger\obj\Debug\Logger.csproj.AssemblyReference.cache
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Logger\bin\Debug\Logger.dll.config
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Logger\bin\Debug\Logger.dll
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Logger\bin\Debug\Logger.pdb
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Logger\bin\Debug\System.Buffers.dll
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Logger\bin\Debug\System.Memory.dll
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Logger\bin\Debug\System.Numerics.Vectors.dll
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Logger\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Logger\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Logger\bin\Debug\System.ValueTuple.dll
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Logger\bin\Debug\System.Buffers.xml
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Logger\bin\Debug\System.Memory.xml
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Logger\bin\Debug\System.Numerics.Vectors.xml
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Logger\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Logger\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Logger\bin\Debug\System.ValueTuple.xml
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Logger\obj\Debug\Logger.csproj.AssemblyReference.cache
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Logger\obj\Debug\Logger.csproj.CoreCompileInputs.cache
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Logger\obj\Debug\Logger.csproj.CopyComplete
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Logger\obj\Debug\Logger.dll
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Logger\obj\Debug\Logger.pdb

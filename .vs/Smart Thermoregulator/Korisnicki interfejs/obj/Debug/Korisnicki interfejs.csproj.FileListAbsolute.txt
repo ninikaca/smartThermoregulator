@@ -1,0 +1,149 @@
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Korisnicki interfejs.exe.config
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Korisnicki interfejs.exe
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Korisnicki interfejs.pdb
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Common.dll
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Device.exe
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Regulator.dll
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\System.Buffers.dll
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\System.Memory.dll
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\System.Numerics.Vectors.dll
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\System.Text.Encodings.Web.dll
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\System.Text.Json.dll
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\System.ValueTuple.dll
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Heater.dll
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Logger.dll
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Database.dll
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Common.pdb
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Common.dll.config
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Device.pdb
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Device.exe.config
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Regulator.pdb
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Regulator.dll.config
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\System.Buffers.xml
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\System.Memory.xml
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\System.Numerics.Vectors.xml
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\System.Text.Encodings.Web.xml
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\System.Text.Json.xml
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\System.ValueTuple.xml
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Heater.pdb
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Heater.dll.config
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Logger.pdb
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Logger.dll.config
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Database.pdb
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Database.dll.config
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\obj\Debug\Korisnicki interfejs.csproj.AssemblyReference.cache
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\obj\Debug\Korisnicki interfejs.csproj.SuggestedBindingRedirects.cache
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\obj\Debug\Korisnicki interfejs.exe.config
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\obj\Debug\MainWindow.g.cs
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\obj\Debug\App.g.cs
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\obj\Debug\Korisnicki interfejs_MarkupCompile.cache
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\obj\Debug\Korisnicki interfejs_MarkupCompile.lref
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\obj\Debug\MainWindow.baml
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\obj\Debug\Korisnicki interfejs.g.resources
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\obj\Debug\Korisnicki_interfejs.Properties.Resources.resources
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\obj\Debug\Korisnicki interfejs.csproj.GenerateResource.cache
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\obj\Debug\Korisnicki interfejs.csproj.CoreCompileInputs.cache
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\obj\Debug\Korisnicki interfejs.csproj.CopyComplete
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\obj\Debug\Korisnicki interfejs.exe
+D:\Smart Thermoregulator V10.2.6\Korisnicki interfejs\obj\Debug\Korisnicki interfejs.pdb
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Korisnicki interfejs.exe.config
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Korisnicki interfejs.exe
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Korisnicki interfejs.pdb
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Common.dll
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Device.exe
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Regulator.dll
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\System.Buffers.dll
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\System.Memory.dll
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\System.Numerics.Vectors.dll
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\System.ValueTuple.dll
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Heater.dll
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Logger.dll
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Database.dll
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Common.pdb
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Common.dll.config
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Device.pdb
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Device.exe.config
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Regulator.pdb
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Regulator.dll.config
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\System.Buffers.xml
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\System.Memory.xml
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\System.Numerics.Vectors.xml
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\System.ValueTuple.xml
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Heater.pdb
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Heater.dll.config
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Logger.pdb
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Logger.dll.config
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Database.pdb
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\bin\Debug\Database.dll.config
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\obj\Debug\Korisnicki interfejs.csproj.AssemblyReference.cache
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\obj\Debug\MainWindow.g.cs
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\obj\Debug\App.g.cs
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\obj\Debug\Korisnicki interfejs_MarkupCompile.cache
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\obj\Debug\Korisnicki interfejs_MarkupCompile.lref
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\obj\Debug\MainWindow.baml
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\obj\Debug\Korisnicki interfejs.g.resources
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\obj\Debug\Korisnicki_interfejs.Properties.Resources.resources
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\obj\Debug\Korisnicki interfejs.csproj.GenerateResource.cache
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\obj\Debug\Korisnicki interfejs.csproj.CoreCompileInputs.cache
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\obj\Debug\Korisnicki interfejs.csproj.CopyComplete
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\obj\Debug\Korisnicki interfejs.exe
+D:\Downloads\Smart Thermoregulator V10.2.6 (1)\Smart Thermoregulator V10.2.6\Korisnicki interfejs\obj\Debug\Korisnicki interfejs.pdb
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\bin\Debug\Korisnicki interfejs.exe.config
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\bin\Debug\Korisnicki interfejs.exe
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\bin\Debug\Korisnicki interfejs.pdb
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\bin\Debug\Common.dll
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\bin\Debug\Device.exe
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\bin\Debug\Regulator.dll
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\bin\Debug\System.Buffers.dll
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\bin\Debug\System.Memory.dll
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\bin\Debug\System.Numerics.Vectors.dll
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\bin\Debug\System.ValueTuple.dll
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\bin\Debug\Heater.dll
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\bin\Debug\Logger.dll
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\bin\Debug\Database.dll
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\bin\Debug\Common.pdb
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\bin\Debug\Common.dll.config
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\bin\Debug\Device.pdb
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\bin\Debug\Device.exe.config
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\bin\Debug\Regulator.pdb
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\bin\Debug\Regulator.dll.config
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\bin\Debug\System.Buffers.xml
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\bin\Debug\System.Memory.xml
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\bin\Debug\System.Numerics.Vectors.xml
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\bin\Debug\System.ValueTuple.xml
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\bin\Debug\Heater.pdb
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\bin\Debug\Heater.dll.config
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\bin\Debug\Logger.pdb
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\bin\Debug\Logger.dll.config
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\bin\Debug\Database.pdb
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\bin\Debug\Database.dll.config
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\obj\Debug\Korisnicki interfejs.csproj.AssemblyReference.cache
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\obj\Debug\MainWindow.g.cs
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\obj\Debug\App.g.cs
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\obj\Debug\Korisnicki interfejs_MarkupCompile.cache
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\obj\Debug\Korisnicki interfejs_MarkupCompile.lref
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\obj\Debug\MainWindow.baml
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\obj\Debug\Korisnicki interfejs.g.resources
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\obj\Debug\Korisnicki_interfejs.Properties.Resources.resources
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\obj\Debug\Korisnicki interfejs.csproj.GenerateResource.cache
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\obj\Debug\Korisnicki interfejs.csproj.CoreCompileInputs.cache
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\obj\Debug\Korisnicki interfejs.csproj.CopyComplete
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\obj\Debug\Korisnicki interfejs.exe
+D:\Desktop\projekat ers\Smart Thermoregulator\Smart Thermoregulator\Korisnicki interfejs\obj\Debug\Korisnicki interfejs.pdb

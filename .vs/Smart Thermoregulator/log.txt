@@ -1,0 +1,4 @@
+[INFO] [12-01-2023 03:05:56] Uredjaj [9110]: Temperatura: 37,92°C
+[INFO] [12-01-2023 03:05:56] Prosecna temperatura: 37,92°C
+[INFO] [12-01-2023 03:08:03] Uredjaj [8056]: Temperatura: 32,82°C
+[INFO] [12-01-2023 03:08:03] Prosecna temperatura: 32,82°C
