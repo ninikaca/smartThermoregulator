@@ -1,9 +1,0 @@
-﻿namespace Database.Implementacije
-{
-    public class DbParams
-    {
-        public static readonly string DATA_SOURCE = "//localhost:1521/xe";
-        public static readonly string USER_ID = "kat";
-        public static readonly string PASSWORD = "ftn";
-    }
-}
