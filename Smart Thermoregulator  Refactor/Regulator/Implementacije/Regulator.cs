@@ -1,7 +1,9 @@
 ﻿using Heater.Interfejsi;
 using Logger;
 using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Runtime.Remoting;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -9,6 +11,7 @@ namespace Heater
 {
     public class Regulator : IRegulator
     {
+        private int[] port = new int[100];
         public bool IsNocniRezim { get; set; }
         public bool IsDnevniRezim { get; set; }
         public double ZeljenaDnevnaTemperatura { get; set; }
@@ -16,9 +19,14 @@ namespace Heater
         public double ProsecnaTemperatura { get; set; }
         public int PocetakDnevniRezim { get; set; }
         public int KrajDnevniRezim { get; set; }
-        public ObservableCollection<Device.Device> Uredjaji { get; set; }
+        public List<Device.Device> Uredjaji { get; set; }
+
+        public int InstanceCnt { get; set; }
 
         private Heater Grejac { get; set; }
+
+        private bool isklucena = false;
+        private bool ukljucena = false;
 
         public Regulator()
         {
@@ -34,6 +42,15 @@ namespace Heater
 
         public async void Regulacija()
         {
+            for (int i = 0; i <= InstanceCnt; i++)
+            {
+                // setovanje liste uredjaja
+                string strConn = "tcp://localhost:" + (8500 + port[i]).ToString() + "/Device";
+                Device.Device mr = RemotingServices.Connect(typeof(Device.Device), strConn) as Device.Device;
+
+                Uredjaji.Add(mr);
+            }
+
             await ProveraRada();
         }
 
@@ -91,13 +108,24 @@ namespace Heater
                     Log log = new Log("Ukljucivanje centralne peci!");
                     log.LogNoveInformationPoruke();
 
+                    // set na true
+                    isklucena = false;
+                    ukljucena = true;
+
                     // ukljucivanje grejaca
                     Grejac.IsHeaterOn = true;
                 }
                 else
                 {
-                    Log log = new Log("Centralna pec iskljucena!");
-                    log.LogNoveInformationPoruke();
+                    if (!isklucena)
+                    {
+                        Log log = new Log("Centralna pec iskljucena!");
+                        log.LogNoveInformationPoruke();
+
+                        // set na true
+                        ukljucena = false;
+                        isklucena = true;
+                    }
 
                     // gasenje grejaca
                     Grejac.IsHeaterOn = false;

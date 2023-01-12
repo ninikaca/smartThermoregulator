@@ -22,6 +22,8 @@ namespace Logger
             logPoruka = new LogPoruka(poruka);
         }
 
+        public string Poruka_za_upis { get => poruka_za_upis; set => poruka_za_upis = value; }
+
         // metoda koja sluzi za belezenje informacionih poruka
         public void LogNoveErrorPoruke()
         {
