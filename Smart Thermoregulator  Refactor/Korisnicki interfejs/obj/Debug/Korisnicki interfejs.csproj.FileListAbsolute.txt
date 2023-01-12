@@ -28,3 +28,10 @@ D:\Desktop\projekat ers\sad stvarno novo\Smart Thermoregulator  Refactor\Korisni
 D:\Desktop\projekat ers\sad stvarno novo\Smart Thermoregulator  Refactor\Korisnicki interfejs\obj\Debug\Korisnicki_interfejs.Properties.Resources.resources
 D:\Desktop\projekat ers\sad stvarno novo\Smart Thermoregulator  Refactor\Korisnicki interfejs\obj\Debug\Korisnicki interfejs.csproj.GenerateResource.cache
 D:\Desktop\projekat ers\sad stvarno novo\Smart Thermoregulator  Refactor\Korisnicki interfejs\obj\Debug\Korisnicki interfejs.csproj.CoreCompileInputs.cache
+D:\Desktop\projekat ers\cetvrtak pred petak\Smart Thermoregulator  Refactor\Korisnicki interfejs\obj\Debug\Korisnicki interfejs.csproj.AssemblyReference.cache
+D:\Desktop\projekat ers\cetvrtak pred petak\Smart Thermoregulator  Refactor\Korisnicki interfejs\obj\Debug\MainWindow.g.cs
+D:\Desktop\projekat ers\cetvrtak pred petak\Smart Thermoregulator  Refactor\Korisnicki interfejs\obj\Debug\App.g.cs
+D:\Desktop\projekat ers\cetvrtak pred petak\Smart Thermoregulator  Refactor\Korisnicki interfejs\obj\Debug\Korisnicki interfejs_MarkupCompile.cache
+D:\Desktop\projekat ers\cetvrtak pred petak\Smart Thermoregulator  Refactor\Korisnicki interfejs\obj\Debug\Korisnicki interfejs_MarkupCompile.lref
+D:\Desktop\projekat ers\cetvrtak pred petak\Smart Thermoregulator  Refactor\Korisnicki interfejs\obj\Debug\Korisnicki interfejs.exe
+D:\Desktop\projekat ers\cetvrtak pred petak\Smart Thermoregulator  Refactor\Korisnicki interfejs\obj\Debug\Korisnicki interfejs.pdb

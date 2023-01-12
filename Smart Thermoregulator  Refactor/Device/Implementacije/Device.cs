@@ -5,7 +5,7 @@ using System.ComponentModel;
 
 namespace Device
 {
-    public class Device : IDevice, INotifyPropertyChanged
+    public class Device : MarshalByRefObject, IDevice, INotifyPropertyChanged
     {
         private int deviceId;
         private double temperatura;
@@ -13,9 +13,15 @@ namespace Device
         public Device()
         {
             deviceId = new Random().Next(0, 10000);
-            temperatura = Math.Round((new Random().Next(-10, 37) + (new Random().NextDouble())), 2); ;
+            temperatura = Math.Round((new Random().Next(-10, 37) + (new Random().NextDouble())), 2);
 
             NovoMerenje();
+        }
+
+        public Device(int deviceId, double temperatura)
+        {
+            DeviceId = deviceId;
+            Temperatura = temperatura;
         }
 
         public int DeviceId { get => deviceId; set => deviceId = value; }
@@ -32,6 +38,7 @@ namespace Device
             }
         }
 
+        [field: NonSerialized]
         public event PropertyChangedEventHandler PropertyChanged;
 
         // promena temperature na uredjaju treba se prikaze i u datagrid-u
@@ -52,6 +59,7 @@ namespace Device
             PeriodicTimer vreme = new PeriodicTimer();
 
             await vreme.SlanjeMerenja(deviceId, temperatura);
+            temperatura = Math.Round((new Random().Next(-10, 37) + (new Random().NextDouble())), 2);
         }
     }
 }

@@ -1,0 +1,2 @@
+D:\Desktop\projekat ers\cetvrtak pred petak\Smart Thermoregulator  Refactor\Regulator\obj\Debug\Regulator.csproj.AssemblyReference.cache
+D:\Desktop\projekat ers\cetvrtak pred petak\Smart Thermoregulator  Refactor\Regulator\obj\Debug\Regulator.csproj.CoreCompileInputs.cache
