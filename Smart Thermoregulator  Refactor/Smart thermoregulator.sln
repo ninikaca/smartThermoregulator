@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerTests", "LoggerTests\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceTests", "DeviceTests\DeviceTests.csproj", "{788A502F-9DE9-4F92-A75A-DF2B87F466EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegulatorTests", "RegulatorTests\RegulatorTests.csproj", "{13A92A64-AA5B-4DBC-8F91-209C23848730}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{788A502F-9DE9-4F92-A75A-DF2B87F466EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{788A502F-9DE9-4F92-A75A-DF2B87F466EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{788A502F-9DE9-4F92-A75A-DF2B87F466EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13A92A64-AA5B-4DBC-8F91-209C23848730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13A92A64-AA5B-4DBC-8F91-209C23848730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13A92A64-AA5B-4DBC-8F91-209C23848730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13A92A64-AA5B-4DBC-8F91-209C23848730}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
